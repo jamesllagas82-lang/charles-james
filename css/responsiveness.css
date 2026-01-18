@@ -1,0 +1,229 @@
+
+
+
+/* ============================== TABLET RESPONSIVENESS 768 – 991 pixel ========================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar {
+        padding: 16px 9%;
+        /* background: yellow; */
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .home {
+        position: relative;
+        flex-direction: column-reverse;
+        margin: 4em;
+        justify-items: center;
+    }
+
+    .home .home-info {
+        justify-items: center;
+
+        text-align: center;
+    }
+
+    .home-img .img-box {
+        width: 42vw;
+        height: 42vw;
+        
+    }
+
+
+    .home-img .img-box .img-item {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .home-img .img-box .img-item img {
+        top: 0px;
+        width: 100%;
+    }
+
+    .home-info h1 {
+        font-size: 45px;
+    }
+
+    .home-info h2 {
+        font-size: 26px;
+    }
+
+    .home-info p {
+        font-size: 14px;
+    }
+    
+}
+
+
+/* ============================== MOBILE LARGE RESPONSIVENESS 576 – 767 pixel ========================= */
+
+@media (max-width: 767px) and (min-height: 800px) {
+    
+    .navbar {
+        padding: 16px 9%;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 8% 0; 
+        text-align: center;
+        height: 100dvh;
+    }
+
+    .home .home-info {
+        text-align: center;
+    }
+
+    .home-img .img-box {
+        width: 65vw;
+        height: 65vw;
+        margin-bottom: 20px;
+        
+    }
+
+    .home-img .img-box .img-item {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .home-img .img-box .img-item img {
+        top: 0px;
+        width: 100%;
+    }
+
+    .home-info h1 {
+        font-size: 40px;
+    }
+
+    .home-info h2 {
+        font-size: 25px;
+    }
+
+    .home-info p {
+        font-size: 16px;
+    }
+
+     .home-info .btn-sci {
+        display: block;
+    }
+
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .home-info .btn-sci .sci {
+        margin-top: 20px;
+    }
+
+    .home-info .btn-sci .sci a {
+        padding: 8px;
+        border: 2px solid darkturquoise;
+        border-radius: 50%;
+        font-size: 20px;
+        color: darkturquoise;
+        margin: 0 2px;
+        transition: .5s;
+    }
+
+}
+
+
+/* ============================== MOBILE SMALL RESPONSIVENESS 576 – 767 pixel ========================= */
+
+@media (max-width: 575px) {
+
+    .navbar {
+        padding: 16px 9%;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 4% 0; 
+        text-align: center;
+        height: 100dvh;
+    }
+
+    .home .home-info {
+        text-align: center;
+    }
+
+    .home-img .img-box {
+        width: 65vw;
+        height: 65vw;        
+    }
+
+    .home-img .img-box .img-item {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .home-img .img-box .img-item img {
+        top: 0px;
+        width: 100%;
+    }
+
+    .home-info h1 {
+        font-size: 35px;
+    }
+
+    .home-info h2 {
+        font-size: 24px;
+    }
+
+    .home-info p {
+        font-size: 12px;
+    }
+
+     .home-info .btn-sci {
+        display: block;
+    }
+
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .home-info .btn-sci .sci {
+        margin-top: 20px;
+    }
+
+    .home-info .btn-sci .sci a {
+        padding: 8px;
+        border: 2px solid darkturquoise;
+        border-radius: 50%;
+        font-size: 20px;
+        color: darkturquoise;
+        margin: 0 2px;
+        transition: .5s;
+    }
+}
